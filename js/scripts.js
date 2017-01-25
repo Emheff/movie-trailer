@@ -1,2 +1,2 @@
-// Awesome Interaction
-console.log('Hello!');
+// My Scripts
+$('h1').lettering();
