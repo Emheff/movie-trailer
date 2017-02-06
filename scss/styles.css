@@ -1,3 +1,9 @@
 /* Grand Central Terminal Stylsheet */
+/* Color Palette */
+/* line 3, /Users/eheffernan/Downloads/movie-trailer/scss/_video.scss */
+video {
+  border: 10px solid red;
+  margin: 0 auto;
+  display: block; }
 
 /*# sourceMappingURL=styles.css.map */
