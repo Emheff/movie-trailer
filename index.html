@@ -1,33 +1,67 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width">
+
+  <title>Movie Trailer</title>
+ 
+ <link rel="icon" href="favicon.ico" type="image/x-icon">
+ 
+ 
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">  
+  <link rel="stylesheet" href="css/styles.css">	
+	
+</head>
+<body class="page">
+
+<!-- Header-->
+<header>
+    <h1>This Is Where I Leave You</h1>
+</header>
     
-    <title>This is Where I Leave You</title>
-   
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="scss/styles.scss"> </head>
 
-<body>
-    <!-- Awesome Content -->
-    <h1>This is Where I Leave You</h1>
-      
-      <video controls>
-         <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4" type="video/mp4" />
-         <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.ogg" type="video/ogg" />
-          
-      </video>
+<!-- Video Section -->
+<section>
+    <video>
+      <source src="video/thisiswhereileaveyou.mp4" type="video/mp4" />
+      <source src="video/thisiswhereileaveyou.webm" type="video/webm" />
+    </video>
+</section> 
 
-       
-    <!-- Scripts -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'>
-    </script>
+<!-- Main Content -->
+<main>
+    
+    <!-- Article -->
+    <article>
         
-        <script scr="js/mediaelement-and-player.min.js"></script>
-        <script scr="js/lettering.js"></script>
-        <script src="js/scripts.js"></script>
-        <script src="js/fitvids.js"></script>
-</body>
+        <p>Quam nunc et donec nec turpis a, semper ut elit lacus duis lacus ipsum. Vestibulum amet non, nibh integer nulla accusantium, odio aenean vitae sollicitudin ut vitae, suspendisse eu mauris mi elementum mollis, blandit suspendisse fusce id. Faucibus libero enim, arcu ipsum et viverra morbi magna sed. Vitae ac dapibus purus consectetuer sit elit, auctor turpis, mattis elementum hac urna, cursus tellus nullam urna aliquam erat. Odio ipsum risus. Quis et molestie iaculis sit, vel qui a, aenean amet amet risus.</p>      
+    </article>
+       
+    <!-- Aside -->
+    <aside>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </aside>
 
+ </main>
+  
+        	      	
+<!-- Footer -->
+    <footer>
+        <p>Copyright 2017</p>
+    </footer>
+									
+<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- Plugins -->
+  	<script src="js/mediaelementplayer.js"></script>
+  	<script src="js/lettering.js"></script>
+<!-- YO'Scripts -->
+  	<script src="js/scripts.js"></script>
+
+</body>
 </html>
