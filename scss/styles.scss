@@ -3,4 +3,83 @@
 @import "grid";
 @import "player";
 @import "global";
-@import "media-queries";
+
+
+
+
+
+
+.page {
+    display: block;
+    background: #76332d;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+   width: 100%;
+
+   
+    
+    
+}
+.title {
+    color: #33a0af;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+a:visited {
+    color: white;
+    text-transform: uppercase;}
+a:link,
+a:hover {
+    background: #7F525D;
+    color:white;
+    
+    color: #33a0af;
+}
+h2,
+.copy {
+    color: #33a0af;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    
+}
+img {
+    width: 200px;
+    height: 300px;
+}
+.photo {
+    display: flex;
+}
+section {
+    margin-top: 100px;
+    padding: 10px;
+    margin: 25px;
+}
+p{
+    color: #33a0af;
+    background: #76332d;
+    font-family: 'Nunito', sans-serif;
+    
+}
+div {
+    padding-left: 10px;
+}
+
+.description {
+    background: #76332d;
+    
+}
+main {
+    background: #76332d;
+   
+    
+}
